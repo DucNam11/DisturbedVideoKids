@@ -24,7 +24,7 @@
 from disturbedyoutubevideosdetection import disturbedyoutubeclassifier as dyc
 
 # Load the Disturbed YouTube Videos Detection Classifier
-classifier = dyc.DisturbedYouTubeClassifier(youtube_data_api_key='AIzaSyC52OPvWyvZGfPoBBkN1dYixK1EJY6C5HY')
+classifier = dyc.DisturbedYouTubeClassifier(youtube_data_api_key='API_KEY')
 
 # Make a prediction on a video
-prediction, confidence_score = classifier.predict(video_id='uSu2QzlzVdY')
+prediction, confidence_score = classifier.predict(video_id='VIDEO_ID')

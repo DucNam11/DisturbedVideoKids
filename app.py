@@ -3,7 +3,7 @@ from flask_cors import CORS
 from backend.disturbedyoutubevideosdetection import disturbedyoutubeclassifier as dyc
 
 # Load YouTube API key from environment variables or replace with your key
-classifier = dyc.DisturbedYouTubeClassifier(youtube_data_api_key='YOUTUBE API KEY')
+classifier = dyc.DisturbedYouTubeClassifier(youtube_data_api_key='API_KEY')
 
 app = Flask(__name__)
 CORS(app)
