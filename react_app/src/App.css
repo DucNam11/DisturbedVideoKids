@@ -1,0 +1,246 @@
+/* Apply some basic styles to the body */
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+/* Style the main container */
+#result{
+
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.output{
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Style the sections */
+section {
+  margin-bottom: 20px;
+}
+
+/* Style the headings */
+h2 {
+  color: #333;
+}
+
+/* Style the paragraphs */
+p {
+  color: #555;
+}
+
+/* Style the file input and button container */
+div > section > div {
+  /* display: flex; */
+  align-items: center;
+}
+
+/* Style the file input */
+input[type="file"] {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+/* Style the "Run" button */
+button {
+  padding: 10px 15px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style the output and error containers */
+div > section > div + div {
+  margin-top: 10px;
+}
+
+h3 {
+  color: #333;
+}
+
+pre {
+  font-size: 16px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  color: #333;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  border-radius: 4px;
+  overflow: auto;
+  height: 30px;
+}
+
+/* Style error text with a red color */
+pre + div > pre {
+  color: #d9534f;
+}
+
+/* Add these styles to your style.css file */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: lightgray;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+
+/* Change button background color on hover */
+button:hover {
+  background-color: #e74c3c;
+}
+
+/* Add these styles to your stylesheet */
+
+section {
+  font-family: 'Lato', sans-serif;
+  margin: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #000000;
+}
+
+#hero-page-text {
+  color: #ffffff;
+}
+
+.team-section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.team-member {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+
+ol {
+  list-style: decimal;
+  margin-left: 20px;
+}
+
+code {
+  background-color: #f8f9fa;
+  padding: 2px 5px;
+  border: 1px solid #dee2e6;
+  border-radius: 3px;
+}
+
+/* Add these styles to your App.css file */
+
+.rounded-image-container {
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.rounded-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.algorithm-container {
+  text-align: left;
+  margin: auto;
+  max-width: 800px; /* Adjust the maximum width as needed */
+}
+
+.algorithm-gif {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Add this CSS to style the hero section */
+.hero {
+  height: 475px; /* Set the desired height for the hero section */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; /* Set text color to white or your desired color */
+  text-align: center;
+}
+
+/* Add this CSS to style the hero content */
+.hero-content {
+  max-width: 500px; /* Set the maximum width for the content */
+  padding: 20px;
+  background-color: rgba(217, 83, 68, 0.7); /* Set a semi-transparent background color */
+  border-radius: 20px;
+}
+button {
+  padding: 10px 15px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button {
+  background-image: linear-gradient(to bottom, #e74c3c, #ec7063);
+}
+/* Add this CSS to style the CTA button */
+.cta-button {
+  display: inline-block;
+  padding: 20px 25px;
+  font-size: 18px;
+  background-color: #e74c3c; /* Set the background color */
+  color: #fff; /* Set text color to white or your desired color */
+  text-decoration: none;
+  border-radius: 30px;
+  margin-top: 20px; /* Add spacing between text and button */
+}
+
+/* Add hover effect for the CTA button */
+.cta-button:hover {
+  background-color: #d95344; /* Set a slightly darker color on hover */
+}
+
+#hero-page-heading {
+  font-family: 'Open Sans', sans-serif;
+  font-size:xx-large;
+}

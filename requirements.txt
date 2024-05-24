@@ -1,0 +1,9 @@
+tensorflow==2.15.0
+scikit-learn
+nltk
+numpy
+isodate
+emoji
+requests
+google-api-python-client
+flask
