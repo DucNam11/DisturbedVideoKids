@@ -1,6 +1,6 @@
 # Phân loại video không phù hợp nhắm tới trẻ nhỏ
 
-## Tỏng quan
+## Tổng quan
 Trong những năm gần đây, sự phát triển của Internet và sự phổ biến của mạng xã hội Youtube đã mở ra một thế giới nội dung giải trí và giáo dục cho tất cả mọi người ở mọi lứa tuổi. Trong đó đặc biệt phải kể đến đối tượng trẻ nhỏ. Đây là đối tượng được một lượng lớn các nhà sáng tạo nội dung nhắm tới. Những nội dung dành cho trẻ em trên Youtube chiếm đa số và không ngừng tăng lên. Thống kê về những video phổ biến nhất trên YouTube tính theo tổng lượt xem toàn cầu tính đến tháng 01 năm 2024 được thực hiện bởi trang Statista, trong số 10 video có lượt xem nhiều nhất thế giới thì có tới 6 video là dành cho trẻ em. 
 
 Để giải quyết vấn đề này, một mô hình phân loại được xây dựng có khả năng phân biệt nội dung không phù hợp nhắm vào trẻ mới biết đi trên YouTube với độ chính xác 72,3%.
